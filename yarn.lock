@@ -9582,10 +9582,10 @@ sanity-diff-patch@^1.0.9:
   dependencies:
     diff-match-patch "^1.0.5"
 
-sanity-plugin-media@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-media/-/sanity-plugin-media-1.1.0.tgz#761492c91392961fca91dffc65c10b3a2b4b8389"
-  integrity sha512-hD2G4O/tTGNtZGRS5bJCu8dgCbcIybSWioqv8puJdf9RkuibK76x4iqrxhur4tGQAphQhbjlxDCspNCjRL/eZw==
+sanity-plugin-media@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-media/-/sanity-plugin-media-1.1.1.tgz#c89da12d1046dcc924b0b928f0733de0e7526cd4"
+  integrity sha512-kEO4dCAX+aX7012odOfI+rp/iAlUCDHiyWqGc1l5/I4CaRc6r1pG462Ia79jq45Wh0fSjo1Gc2dkNOb8Zc1V8Q==
   dependencies:
     "@hookform/resolvers" "2.0.0-beta.3"
     "@reduxjs/toolkit" "1.5.0"
