@@ -7,9 +7,9 @@
   "author": "Bruno Alla <alla.brunoo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write \"**/*.+(js|jsx|json|css|scss|md)\"",
-    "lint:eslint": "eslint --ext .js,.jsx .",
-    "lint:prettier": "prettier --check \"**/*.+(js|jsx|json|css|scss|md)\"",
+    "format": "prettier --write .",
+    "lint:eslint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "lint:prettier": "prettier --check .",
     "deploy": "yarn run deploy:studio && yarn run deploy:graphql",
     "deploy:studio": "sanity deploy",
     "deploy:graphql": "sanity graphql deploy --no-playground",
@@ -42,5 +42,45 @@
     "eslint-plugin-prettier": "3.3.1",
     "eslint-plugin-react": "7.22.0",
     "prettier": "2.2.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "prettier"
+    ],
+    "plugins": [
+      "react",
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 9,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "semi": false,
+          "singleQuote": true,
+          "trailingComma": "es5"
+        }
+      ]
+    }
+  },
+  "renovate": {
+    "extends": [
+      "github>browniebroke/renovate-configs"
+    ]
   }
 }
