@@ -18,11 +18,11 @@
   "parts": [
     {
       "name": "part:@sanity/base/schema",
-      "path": "./schemas/schema.js"
+      "path": "./schemas/schema.ts"
     },
     {
       "implements": "part:@sanity/form-builder/input/image/asset-sources",
-      "path": "./parts/assetSources.js"
+      "path": "./parts/assetSources.ts"
     }
   ]
 }

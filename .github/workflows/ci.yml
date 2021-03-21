@@ -31,6 +31,7 @@ jobs:
         linter:
           - eslint
           - prettier
+          - tsc
 
     steps:
       - uses: actions/checkout@v2
