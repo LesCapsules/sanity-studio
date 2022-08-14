@@ -17,7 +17,7 @@
     // Configure properties specific to VS Code.
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
-      "extensions": ["dbaeumer.vscode-eslint"]
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
     }
   },
 
@@ -25,7 +25,7 @@
   "forwardPorts": [3333],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "npm i",
+  "postCreateCommand": "npm i && npm install -g @sanity/cli",
 
   // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "node",
