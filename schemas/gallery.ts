@@ -45,7 +45,7 @@ export default {
       datetime: 'date',
       photo: 'mainPhoto',
     },
-    prepare(selection) {
+    prepare(selection: Record<string, any>) {
       const { title, datetime, photo } = selection
       const date = datetime.split('T')[0]
       const year = date.split('-')[0]
