@@ -16,11 +16,6 @@ export default {
       title: 'ID Youtube',
       type: 'string',
     },
-    {
-      name: 'video',
-      title: 'Video',
-      type: 'mux.video',
-    },
   ],
   preview: {
     select: { title: 'title', youtubeId: 'youtubeId' },
