@@ -24,7 +24,7 @@ export default {
   ],
   preview: {
     select: { title: 'title', youtubeId: 'youtubeId' },
-    prepare(selection: any) {
+    prepare(selection: Record<string, any>) {
       const { title, youtubeId } = selection
       const media = `https://img.youtube.com/vi/${youtubeId}/0.jpg`
       return {
