@@ -18,6 +18,7 @@ const compat = new FlatCompat({
 export default [
   ...compat.extends('prettier'),
   {
+    files: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
     plugins: {
       react,
       prettier,
