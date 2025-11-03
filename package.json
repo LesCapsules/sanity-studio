@@ -23,11 +23,11 @@
   ],
   "dependencies": {
     "@sanity/locale-fr-fr": "^1.2.10",
-    "@sanity/vision": "4.12.0",
+    "@sanity/vision": "4.13.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-icons": "5.5.0",
-    "sanity": "4.12.0",
+    "sanity": "4.13.0",
     "sanity-plugin-media": "^4.0.0",
     "styled-components": "6.1.19",
     "typescript": "5.9.3"
