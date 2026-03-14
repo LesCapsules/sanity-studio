@@ -9,7 +9,6 @@ export default defineConfig({
   projectId: '9xyjnlvq',
   dataset: 'production',
   plugins: [structureTool(), media(), frFRLocale()],
-
   schema: {
     types: schemas,
   },

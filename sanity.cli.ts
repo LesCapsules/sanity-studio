@@ -5,4 +5,5 @@ export default defineCliConfig({
     projectId: '9xyjnlvq',
     dataset: 'production',
   },
+  studioHost: 'capsules',
 })
