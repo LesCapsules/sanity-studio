@@ -30,7 +30,7 @@
     "sanity": "5.17.1",
     "sanity-plugin-media": "^4.0.0",
     "styled-components": "6.3.12",
-    "typescript": "5.9.3"
+    "typescript": "6.0.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
