@@ -43,6 +43,9 @@
     "globals": "^17.0.0",
     "prettier": "3.9.6"
   },
+  "overrides": {
+    "brace-expansion": "^5.0.8"
+  },
   "prettier": {
     "semi": false,
     "singleQuote": true,
