@@ -44,10 +44,16 @@
     "prettier": "3.9.6"
   },
   "overrides": {
-    "brace-expansion": ">=5.0.8",
-    "js-yaml": ">=3.15.0",
-    "postcss": ">=8.5.25",
-    "smol-toml": ">=1.6.1"
+    "brace-expansion@<2": "^1.1.18",
+    "brace-expansion@>=2 <3": "^2.1.4",
+    "brace-expansion@>=4": "^5.0.9",
+    "js-yaml@<4": "^3.15.0",
+    "js-yaml@>=4 <5": "^4.3.0",
+    "postcss": "^8.5.25",
+    "smol-toml": "^1.6.1",
+    "undici@<7": "^6.28.0",
+    "undici@>=7 <8": "^7.29.0",
+    "uuid@<11": "^11.1.1"
   },
   "prettier": {
     "semi": false,
