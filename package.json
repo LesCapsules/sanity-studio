@@ -7,9 +7,9 @@
   "author": "Bruno Alla <alla.brunoo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write .",
-    "check:lint": "eslint .",
-    "check:format": "prettier --check .",
+    "format": "oxfmt",
+    "check:lint": "oxlint",
+    "check:format": "oxfmt --check",
     "check:types": "tsc",
     "deploy": "npm run deploy:studio",
     "deploy:studio": "sanity deploy",
@@ -32,17 +32,6 @@
     "styled-components": "6.5.3",
     "typescript": "6.0.3"
   },
-  "devDependencies": {
-    "@eslint/eslintrc": "3.3.7",
-    "@eslint/js": "9.39.5",
-    "@typescript-eslint/parser": "8.70.1",
-    "eslint": "9.39.5",
-    "eslint-config-prettier": "10.1.8",
-    "eslint-plugin-prettier": "5.5.6",
-    "eslint-plugin-react": "7.37.5",
-    "globals": "17.12.0",
-    "prettier": "3.9.9"
-  },
   "overrides": {
     "brace-expansion@<2": "^1.1.18",
     "brace-expansion@>=2 <3": "^2.1.4",
@@ -55,14 +44,13 @@
     "undici@>=7 <8": "^7.29.0",
     "uuid@<11": "^11.1.1"
   },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
   "renovate": {
     "extends": [
       "github>browniebroke/renovate-configs:js-app"
     ]
+  },
+  "devDependencies": {
+    "oxfmt": "0.70.0",
+    "oxlint": "1.85.0"
   }
 }
