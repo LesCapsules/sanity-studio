@@ -24,7 +24,7 @@ export default {
       const media = `https://img.youtube.com/vi/${youtubeId}/0.jpg`
       return {
         title: title,
-        media: <img src={media}></img>,
+        media: <img src={media} alt={title}></img>,
       }
     },
   },
