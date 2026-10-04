@@ -33,7 +33,7 @@
     "typescript": "7.0.2"
   },
   "overrides": {
-    "adm-zip": "^0.6.1",
+    "adm-zip": "0.6.1",
     "brace-expansion@<2": "^1.1.18",
     "brace-expansion@>=2 <3": "^2.1.4",
     "brace-expansion@>=4": "^5.0.9",
